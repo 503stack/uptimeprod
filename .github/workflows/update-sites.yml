@@ -24,32 +24,32 @@ jobs:
           echo "Parsing and generating new YAML..."
 
           # Extract production orgs and update YAML
-          python3 <<EOF
-import yaml, json
+          python3 - <<'EOF'
+          import yaml, json
 
-with open("altinn-orgs.json") as f:
-    orgs = json.load(f)["orgs"]
+          with open("altinn-orgs.json") as f:
+              orgs = json.load(f)["orgs"]
 
-with open(".upptimerc.yml") as f:
-    config = yaml.safe_load(f)
+          with open(".upptimerc.yml") as f:
+              config = yaml.safe_load(f)
 
-sites = []
-for key, value in orgs.items():
-    if "production" in value.get("environments", []):
-        entry = {
-            "name": key,
-            "url": f"https://{key}.apps.altinn.no/kuberneteswrapper/api/v1/deployments"
-        }
-        logo = value.get("logo", "").strip()
-        if logo:
-            entry["icon"] = logo
-        sites.append(entry)
+          sites = []
+          for key, value in orgs.items():
+              if "production" in value.get("environments", []):
+                  entry = {
+                      "name": key,
+                      "url": f"https://{key}.apps.altinn.no/kuberneteswrapper/api/v1/deployments"
+                  }
+                  logo = value.get("logo", "").strip()
+                  if logo:
+                      entry["icon"] = logo
+                  sites.append(entry)
 
-config["sites"] = sites
+          config["sites"] = sites
 
-with open(".upptimerc.yml", "w") as f:
-    yaml.dump(config, f, sort_keys=False)
-EOF
+          with open(".upptimerc.yml", "w") as f:
+              yaml.dump(config, f, sort_keys=False)
+          EOF
 
       - name: Commit and push changes
         run: |
