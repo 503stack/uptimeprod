@@ -3,20 +3,126 @@ owner: 503stack # Your GitHub organization or username, where this repository li
 repo: uptimeprod # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
-
+  - name: brg
+    url: https://brg.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/brg/brreg.png
+  - name: dat
+    url: https://dat.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/dat/arbeidstilsynet.png
+  - name: dibk
+    url: https://dibk.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/dibk/dibk.png
+  - name: digdir
+    url: https://digdir.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+  - name: dihe
+    url: https://dihe.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+  - name: dmf
+    url: https://dmf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/dmf/dmf.png
+  - name: din
+    url: https://din.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/din/din.jpg
+  - name: dsb
+    url: https://dsb.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/dsb/dsb.png
+  - name: fd
+    url: https://fd.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/fd/fiskeridirektoratet.png
+  - name: fhi
+    url: https://fhi.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/fhi/fhi.png
+  - name: fors
+    url: https://fors.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/fors/fors.png
+  - name: gk
+    url: https://gk.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/gk/gjenopptakelseskommisjonen.png
+  - name: hdir
+    url: https://hdir.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/hdir/helsedirektoratet.png
+  - name: hemit
+    url: https://hemit.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/hemit/hemit.svg
+  - name: hi
+    url: https://hi.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/hi/havforskningsinstituttet.png
+  - name: hmrhf
+    url: https://hmrhf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/hmrhf/hmrhf.png
+  - name: ikta
+    url: https://ikta.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/ikta/ikta.png
+  - name: krt
+    url: https://krt.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/krt/krt.png
+  - name: kv
+    url: https://kv.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/kv/kartverket.png
+  - name: kyv
+    url: https://kyv.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/kyv/kyv.png
+  - name: lt
+    url: https://lt.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/lt/lt.png
+  - name: mat
+    url: https://mat.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/mat/mat.png
+  - name: nb
+    url: https://nb.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/nb/norgesbank.png
+  - name: nbib
+    url: https://nbib.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/nbib/nasjonalbiblioteket.png
+  - name: nhn
+    url: https://nhn.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/nhn/nhn.png
+  - name: nkom
+    url: https://nkom.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/nkom/nkom.png
+  - name: oed
+    url: https://oed.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/oed/oed.png
+  - name: pat
+    url: https://pat.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/pat/pat.png
+  - name: sfvt
+    url: https://sfvt.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/sfvt/sfvt.png
+  - name: skd
+    url: https://skd.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/skd/skd.png
+  - name: srf
+    url: https://srf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/srf/srf.png
+  - name: ssb
+    url: https://ssb.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/ssb/ssb_dark.png
+  - name: staf
+    url: https://staf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/staf/staf.png
+  - name: stami
+    url: https://stami.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/stami/stami.png
+  - name: svv
+    url: https://svv.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/svv/svv.png
+  - name: tad
+    url: https://tad.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/tad/tad.png
+  - name: tra
+    url: https://tra.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/tra/tra.png
+  - name: ttd
+    url: https://ttd.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+  - name: udi
+    url: https://udi.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/udi/udi.png
+  - name: udir
+    url: https://udir.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/udir/udir.png
+  - name: valg
+    url: https://valg.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/valg/valg.png
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
