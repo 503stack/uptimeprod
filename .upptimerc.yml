@@ -128,7 +128,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: 503stack.xyz
   baseUrl: /uptimeprod
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/Altinn/altinn-cdn/master/img/Altinn-logo-default.svg
   name: Altinn Prod
   introTitle: "**Altinn Prod** uptime monitor and status page."
   introMessage: Powered entirely by GitHub
