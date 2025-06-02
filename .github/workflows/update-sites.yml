@@ -1,0 +1,70 @@
+name: Update .upptimerc.yml with Production Orgs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-upptimerc:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Download altinn-orgs.json
+        run: curl -sSL -o altinn-orgs.json https://altinncdn.no/orgs/altinn-orgs.json
+
+      - name: Update .upptimerc.yml
+        run: |
+          echo "Parsing and generating new YAML..."
+
+          # Extract production orgs and update YAML
+          python3 <<EOF
+import yaml, json
+
+with open("altinn-orgs.json") as f:
+    orgs = json.load(f)["orgs"]
+
+with open(".upptimerc.yml") as f:
+    config = yaml.safe_load(f)
+
+sites = []
+for key, value in orgs.items():
+    if "production" in value.get("environments", []):
+        entry = {
+            "name": key,
+            "url": f"https://{key}.apps.altinn.no/kuberneteswrapper/api/v1/deployments"
+        }
+        logo = value.get("logo", "").strip()
+        if logo:
+            entry["icon"] = logo
+        sites.append(entry)
+
+config["sites"] = sites
+
+with open(".upptimerc.yml", "w") as f:
+    yaml.dump(config, f, sort_keys=False)
+EOF
+
+      - name: Commit and push changes
+        run: |
+          BRANCH="update-upptimerc-$(date +%s)"
+          git checkout -b "$BRANCH"
+          git add .upptimerc.yml
+          git commit -m "Update .upptimerc.yml with Altinn production orgs"
+          git push origin "$BRANCH"
+          echo "BRANCH_NAME=$BRANCH" >> $GITHUB_ENV
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ env.BRANCH_NAME }}
+          title: "Update .upptimerc.yml with Altinn production orgs"
+          body: |
+            This PR updates the `.upptimerc.yml` file to reflect the current set of organizations that have `production` environments in Altinn.
