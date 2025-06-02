@@ -1,19 +1,25 @@
-name: Extract Production Orgs in Custom YAML Format
+name: Update Sites in .upptimerc.yml
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
 
 jobs:
-  extract:
+  update-sites:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Download altinn-orgs.json
         run: curl -sSL -o altinn-orgs.json https://altinncdn.no/orgs/altinn-orgs.json
 
-      - name: Extract and format production orgs to valid YAML
+      - name: Update .upptimerc.yml with production orgs
         run: |
-          echo "sites:" > sites.yml
+          # Generate the new sites section
+          echo "sites:" > sites_new.yml
           jq -r '
             .orgs | to_entries[]
             | select(.value.environments != null and (.value.environments | index("production")))
@@ -27,7 +33,32 @@ jobs:
                   end
                 )
               )
-          ' altinn-orgs.json >> sites.yml
+          ' altinn-orgs.json >> sites_new.yml
 
-      - name: Show final YAML
-        run: cat sites.yml
+          # Replace the sites section in .upptimerc.yml
+          awk -v sites_new="$(cat sites_new.yml)" '
+          /^sites:/ {
+            print sites_new;
+            in_sites_section = 1;
+            next;
+          }
+          /^[a-zA-Z]/ {
+            in_sites_section = 0;
+          }
+          !in_sites_section {
+            print;
+          }
+          ' uptimeprod/.upptimerc.yml > uptimeprod/.upptimerc.yml.new
+          
+          mv uptimeprod/.upptimerc.yml.new uptimeprod/.upptimerc.yml
+
+      - name: Show updated .upptimerc.yml
+        run: cat uptimeprod/.upptimerc.yml
+
+      - name: Commit and push if there are changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add uptimeprod/.upptimerc.yml
+          git diff --staged --quiet || git commit -m "Update sites list with latest production orgs"
+          git push
