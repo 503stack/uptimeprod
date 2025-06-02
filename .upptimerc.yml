@@ -130,7 +130,7 @@ status-website:
   baseUrl: /uptimeprod
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Altinn Prod
-  introTitle: "**Altinn Prod** uptime monitor and status page"
+  introTitle: "**Altinn Prod** uptime monitor and status page."
   introMessage: Powered entirely by GitHub
   navbar:
     - title: Status
