@@ -1,7 +1,7 @@
 url: https://srf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 444
-lastUpdated: 2025-06-02T18:35:50.984Z
+responseTime: 730
+lastUpdated: 2025-06-02T18:44:20.225Z
 startTime: 2025-06-02T18:29:51.227Z
 generator: Upptime <https://github.com/upptime/upptime>
