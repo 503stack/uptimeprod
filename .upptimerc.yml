@@ -129,6 +129,7 @@ status-website:
   cname: 503stack.xyz
   baseUrl: /uptimeprod
   logoUrl: https://raw.githubusercontent.com/503stack/uptimeprod/master/assets/digdir.png
+  favicon: https://raw.githubusercontent.com/503stack/uptimeprod/master/assets/favicon.ico
   name: Altinn Prod
   introTitle: "**Altinn Prod** uptime monitor and status page."
   introMessage: Powered entirely by GitHub
