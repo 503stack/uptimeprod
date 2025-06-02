@@ -48,17 +48,17 @@ jobs:
           !in_sites_section {
             print;
           }
-          ' uptimeprod/.upptimerc.yml > uptimeprod/.upptimerc.yml.new
+          ' .upptimerc.yml > .upptimerc.yml.new
           
-          mv uptimeprod/.upptimerc.yml.new uptimeprod/.upptimerc.yml
+          mv .upptimerc.yml.new .upptimerc.yml
 
       - name: Show updated .upptimerc.yml
-        run: cat uptimeprod/.upptimerc.yml
+        run: cat .upptimerc.yml
 
       - name: Commit and push if there are changes
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git add uptimeprod/.upptimerc.yml
+          git add .upptimerc.yml
           git diff --staged --quiet || git commit -m "Update sites list with latest production orgs"
           git push
