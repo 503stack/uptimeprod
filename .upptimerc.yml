@@ -3,124 +3,124 @@ owner: 503stack # Your GitHub organization or username, where this repository li
 repo: uptimeprod # The name of this repository
 
 sites:
-  - name: brg
+  - name: brg-prod-aks
     url: https://brg.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/brg/brreg.png
-  - name: dat
+  - name: dat-prod-aks
     url: https://dat.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/dat/arbeidstilsynet.png
-  - name: dibk
+  - name: dibk-prod-aks
     url: https://dibk.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/dibk/dibk.png
-  - name: digdir
+  - name: digdir-prod-aks
     url: https://digdir.apps.altinn.no/kuberneteswrapper/api/v1/deployments
-  - name: dihe
+  - name: dihe-prod-aks
     url: https://dihe.apps.altinn.no/kuberneteswrapper/api/v1/deployments
-  - name: dmf
+  - name: dmf-prod-aks
     url: https://dmf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/dmf/dmf.png
-  - name: din
+  - name: din-prod-aks
     url: https://din.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/din/din.jpg
-  - name: dsb
+  - name: dsb-prod-aks
     url: https://dsb.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/dsb/dsb.png
-  - name: fd
+  - name: fd-prod-aks
     url: https://fd.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/fd/fiskeridirektoratet.png
-  - name: fhi
+  - name: fhi-prod-aks
     url: https://fhi.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/fhi/fhi.png
-  - name: fors
+  - name: fors-prod-aks
     url: https://fors.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/fors/fors.png
-  - name: gk
+  - name: gk-prod-aks
     url: https://gk.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/gk/gjenopptakelseskommisjonen.png
-  - name: hdir
+  - name: hdir-prod-aks
     url: https://hdir.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/hdir/helsedirektoratet.png
-  - name: hemit
+  - name: hemit-prod-aks
     url: https://hemit.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/hemit/hemit.svg
-  - name: hi
+  - name: hi-prod-aks
     url: https://hi.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/hi/havforskningsinstituttet.png
-  - name: hmrhf
+  - name: hmrhf-prod-aks
     url: https://hmrhf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/hmrhf/hmrhf.png
-  - name: ikta
+  - name: ikta-prod-aks
     url: https://ikta.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/ikta/ikta.png
-  - name: krt
+  - name: krt-prod-aks
     url: https://krt.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/krt/krt.png
-  - name: kv
+  - name: kv-prod-aks
     url: https://kv.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/kv/kartverket.png
-  - name: kyv
+  - name: kyv-prod-aks
     url: https://kyv.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/kyv/kyv.png
-  - name: lt
+  - name: lt-prod-aks
     url: https://lt.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/lt/lt.png
-  - name: mat
+  - name: mat-prod-aks
     url: https://mat.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/mat/mat.png
-  - name: nb
+  - name: nb-prod-aks
     url: https://nb.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/nb/norgesbank.png
-  - name: nbib
+  - name: nbib-prod-aks
     url: https://nbib.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/nbib/nasjonalbiblioteket.png
-  - name: nhn
+  - name: nhn-prod-aks
     url: https://nhn.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/nhn/nhn.png
-  - name: nkom
+  - name: nkom-prod-aks
     url: https://nkom.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/nkom/nkom.png
-  - name: oed
+  - name: oed-prod-aks
     url: https://oed.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/oed/oed.png
-  - name: pat
+  - name: pat-prod-aks
     url: https://pat.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/pat/pat.png
-  - name: sfvt
+  - name: sfvt-prod-aks
     url: https://sfvt.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/sfvt/sfvt.png
-  - name: skd
+  - name: skd-prod-aks
     url: https://skd.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/skd/skd.png
-  - name: srf
+  - name: srf-prod-aks
     url: https://srf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/srf/srf.png
-  - name: ssb
+  - name: ssb-prod-aks
     url: https://ssb.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/ssb/ssb_dark.png
-  - name: staf
+  - name: staf-prod-aks
     url: https://staf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/staf/staf.png
-  - name: stami
+  - name: stami-prod-aks
     url: https://stami.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/stami/stami.png
-  - name: svv
+  - name: svv-prod-aks
     url: https://svv.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/svv/svv.png
-  - name: tad
+  - name: tad-prod-aks
     url: https://tad.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/tad/tad.png
-  - name: tra
+  - name: tra-prod-aks
     url: https://tra.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/tra/tra.png
-  - name: ttd
+  - name: ttd-prod-aks
     url: https://ttd.apps.altinn.no/kuberneteswrapper/api/v1/deployments
-  - name: udi
+  - name: udi-prod-aks
     url: https://udi.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/udi/udi.png
-  - name: udir
+  - name: udir-prod-aks
     url: https://udir.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/udir/udir.png
-  - name: valg
+  - name: valg-prod-aks
     url: https://valg.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/valg/valg.png
 status-website:
