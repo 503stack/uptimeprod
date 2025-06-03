@@ -2,8 +2,11 @@ name: Update Sites in .upptimerc.yml
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/update-sites.yml"
   schedule:
-    - cron: '0 0 * * *'  # Run daily at midnight
+    - cron: "0 0 * * *" # Run daily at midnight
 
 jobs:
   update-sites:
@@ -24,7 +27,7 @@ jobs:
             .orgs | to_entries[]
             | select(.value.environments != null and (.value.environments | index("production")))
             | (
-                "  - name: \(.key)\n" +
+                "  - name: \(.key)-prod-aks\n" +
                 "    url: https://\(.key).apps.altinn.no/kuberneteswrapper/api/v1/deployments" +
                 (
                   if (.value.logo // "") != ""
@@ -49,7 +52,7 @@ jobs:
             print;
           }
           ' .upptimerc.yml > .upptimerc.yml.new
-          
+
           mv .upptimerc.yml.new .upptimerc.yml
 
       - name: Show updated .upptimerc.yml
