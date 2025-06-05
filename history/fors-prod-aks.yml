@@ -1,7 +1,7 @@
 url: https://fors.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 722
-lastUpdated: 2025-06-05T21:39:57.726Z
+responseTime: 616
+lastUpdated: 2025-06-05T23:16:50.718Z
 startTime: 2025-06-03T18:16:37.557Z
 generator: Upptime <https://github.com/upptime/upptime>
