@@ -1,7 +1,7 @@
 url: https://ikta.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 648
-lastUpdated: 2025-06-20T23:15:22.057Z
+responseTime: 431
+lastUpdated: 2025-06-21T23:14:36.196Z
 startTime: 2025-06-03T18:16:43.631Z
 generator: Upptime <https://github.com/upptime/upptime>
