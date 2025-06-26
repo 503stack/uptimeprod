@@ -1,7 +1,7 @@
 url: https://dibk.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 1194
-lastUpdated: 2025-06-25T23:15:08.695Z
+responseTime: 540
+lastUpdated: 2025-06-26T23:14:59.520Z
 startTime: 2025-06-03T18:16:29.306Z
 generator: Upptime <https://github.com/upptime/upptime>
