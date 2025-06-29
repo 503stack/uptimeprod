@@ -1,7 +1,7 @@
 url: https://mat.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 748
-lastUpdated: 2025-06-28T23:14:38.043Z
+responseTime: 580
+lastUpdated: 2025-06-29T23:14:44.903Z
 startTime: 2025-06-03T18:16:48.834Z
 generator: Upptime <https://github.com/upptime/upptime>
