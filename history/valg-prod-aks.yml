@@ -1,7 +1,7 @@
 url: https://valg.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 431
-lastUpdated: 2025-07-26T23:15:54.599Z
+responseTime: 420
+lastUpdated: 2025-07-27T23:16:55.943Z
 startTime: 2025-06-03T18:17:08.027Z
 generator: Upptime <https://github.com/upptime/upptime>
