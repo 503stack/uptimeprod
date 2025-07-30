@@ -1,7 +1,7 @@
 url: https://stami.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 691
-lastUpdated: 2025-07-29T23:17:01.615Z
+responseTime: 544
+lastUpdated: 2025-07-30T23:17:04.951Z
 startTime: 2025-06-03T18:17:00.930Z
 generator: Upptime <https://github.com/upptime/upptime>
