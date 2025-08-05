@@ -1,7 +1,7 @@
 url: https://dmf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 659
-lastUpdated: 2025-08-04T23:16:40.433Z
+responseTime: 438
+lastUpdated: 2025-08-05T23:16:32.136Z
 startTime: 2025-06-03T18:16:32.669Z
 generator: Upptime <https://github.com/upptime/upptime>
