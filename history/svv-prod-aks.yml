@@ -1,7 +1,7 @@
 url: https://svv.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 690
-lastUpdated: 2025-08-14T23:15:50.461Z
+responseTime: 554
+lastUpdated: 2025-08-15T23:15:41.575Z
 startTime: 2025-06-03T18:17:01.955Z
 generator: Upptime <https://github.com/upptime/upptime>
