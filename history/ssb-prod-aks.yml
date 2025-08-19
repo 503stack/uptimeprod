@@ -1,7 +1,7 @@
 url: https://ssb.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 483
-lastUpdated: 2025-08-18T23:14:58.991Z
+responseTime: 440
+lastUpdated: 2025-08-19T23:14:32.820Z
 startTime: 2025-06-03T18:16:58.928Z
 generator: Upptime <https://github.com/upptime/upptime>
