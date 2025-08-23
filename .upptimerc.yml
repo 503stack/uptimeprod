@@ -47,9 +47,6 @@ sites:
   - name: hi-prod-aks
     url: https://hi.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/hi/havforskningsinstituttet.png
-  - name: hmrhf-prod-aks
-    url: https://hmrhf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
-    icon: https://altinncdn.no/orgs/hmrhf/hmrhf.png
   - name: ikta-prod-aks
     url: https://ikta.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/ikta/ikta.png
