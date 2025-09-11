@@ -238,19 +238,19 @@
     "url": "https://hemit.apps.altinn.no/kuberneteswrapper/api/v1/deployments",
     "icon": "https://altinncdn.no/orgs/hemit/hemit.svg",
     "slug": "hemit-prod-aks",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 583,
-    "timeDay": 457,
-    "timeWeek": 597,
-    "timeMonth": 610,
-    "timeYear": 583,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "98.84%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.99%",
+    "time": 585,
+    "timeDay": 557,
+    "timeWeek": 615,
+    "timeMonth": 615,
+    "timeYear": 585,
     "dailyMinutesDown": {
-      "2025-09-11": 0
+      "2025-09-11": 17
     }
   },
   {
@@ -528,19 +528,19 @@
     "url": "https://srf.apps.altinn.no/kuberneteswrapper/api/v1/deployments",
     "icon": "https://altinncdn.no/orgs/srf/srf.png",
     "slug": "srf-prod-aks",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 541,
-    "timeDay": 452,
-    "timeWeek": 522,
-    "timeMonth": 566,
-    "timeYear": 541,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "98.83%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.99%",
+    "time": 542,
+    "timeDay": 521,
+    "timeWeek": 537,
+    "timeMonth": 568,
+    "timeYear": 542,
     "dailyMinutesDown": {
-      "2025-09-11": 0
+      "2025-09-11": 17
     }
   },
   {
