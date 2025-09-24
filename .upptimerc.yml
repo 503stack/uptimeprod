@@ -109,7 +109,7 @@ sites:
     icon: https://altinncdn.no/orgs/tad/tad.png
   - name: tra-prod-aks
     url: https://tra.apps.altinn.no/kuberneteswrapper/api/v1/deployments
-    icon: https://altinncdn.no/orgs/tra/tra.png
+    icon: https://altinncdn.no/orgs/tra/tra.svg
   - name: ttd-prod-aks
     url: https://ttd.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/ttd/ttd.png
