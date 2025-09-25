@@ -67,7 +67,7 @@ sites:
     icon: https://altinncdn.no/orgs/mat/mat.png
   - name: nb-prod-aks
     url: https://nb.apps.altinn.no/kuberneteswrapper/api/v1/deployments
-    icon: https://altinncdn.no/orgs/nb/norgesbank.png
+    icon: https://altinncdn.no/orgs/nb/norgesbank.svg
   - name: nbib-prod-aks
     url: https://nbib.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/nbib/nasjonalbiblioteket.png
