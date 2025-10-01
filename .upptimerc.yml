@@ -122,6 +122,9 @@ sites:
   - name: valg-prod-aks
     url: https://valg.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/valg/valg.png
+  - name: nokut-prod-aks
+    url: https://nokut.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/nokut/nokut.svg
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
