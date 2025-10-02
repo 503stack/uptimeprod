@@ -1,7 +1,7 @@
 url: https://nokut.apps.altinn.no/kuberneteswrapper/api/v1/deployments
-status: down
-code: 418
-responseTime: 437
-lastUpdated: 2025-10-01T23:13:33.072Z
+status: up
+code: 200
+responseTime: 507
+lastUpdated: 2025-10-02T09:15:36.753Z
 startTime: 2025-10-01T02:25:35.135Z
 generator: Upptime <https://github.com/upptime/upptime>
