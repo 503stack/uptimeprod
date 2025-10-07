@@ -1,7 +1,7 @@
 url: https://dihe.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 679
-lastUpdated: 2025-10-06T23:13:19.852Z
+responseTime: 580
+lastUpdated: 2025-10-07T23:13:23.075Z
 startTime: 2025-06-03T18:16:31.604Z
 generator: Upptime <https://github.com/upptime/upptime>
