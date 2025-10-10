@@ -6,6 +6,9 @@ sites:
   - name: brg-prod-aks
     url: https://brg.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/brg/brreg.png
+  - name: buf-prod-aks
+    url: https://buf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/buf/buf.png
   - name: dat-prod-aks
     url: https://dat.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/dat/arbeidstilsynet.png
@@ -125,6 +128,9 @@ sites:
   - name: nokut-prod-aks
     url: https://nokut.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/nokut/nokut.svg
+  - name: vigo-prod-aks
+    url: https://vigo.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    icon: https://altinncdn.no/orgs/vigo/novari_logo.svg
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
