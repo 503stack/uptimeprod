@@ -1,7 +1,7 @@
 url: https://hemit.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 692
-lastUpdated: 2025-10-11T23:13:18.573Z
+responseTime: 484
+lastUpdated: 2025-10-12T23:12:59.936Z
 startTime: 2025-06-03T18:16:40.561Z
 generator: Upptime <https://github.com/upptime/upptime>
