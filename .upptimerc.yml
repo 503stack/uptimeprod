@@ -97,7 +97,7 @@ sites:
     icon: https://altinncdn.no/orgs/srf/srf.png
   - name: ssb-prod-aks
     url: https://ssb.apps.altinn.no/kuberneteswrapper/api/v1/deployments
-    icon: https://altinncdn.no/orgs/ssb/ssb_dark.png
+    icon: https://altinncdn.no/orgs/ssb/ssb-logo-dark.svg
   - name: staf-prod-aks
     url: https://staf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     icon: https://altinncdn.no/orgs/staf/staf.png
