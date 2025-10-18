@@ -28,7 +28,8 @@ jobs:
             | select(.value.environments != null and (.value.environments | index("production")))
             | (
                 "  - name: \(.key)-prod-aks\n" +
-                "    url: https://\(.key).apps.altinn.no/kuberneteswrapper/api/v1/deployments" +
+                "    url: https://\(.key).apps.altinn.no/kuberneteswrapper/api/v1/deployments\n" +
+                "    ipv6: true" +
                 (
                   if (.value.logo // "") != ""
                   then "\n    icon: \(.value.logo)"
