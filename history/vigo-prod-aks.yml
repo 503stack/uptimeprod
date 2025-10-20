@@ -1,7 +1,7 @@
 url: https://vigo.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 477
-lastUpdated: 2025-10-19T23:13:45.012Z
+responseTime: 512
+lastUpdated: 2025-10-20T23:14:05.323Z
 startTime: 2025-10-10T02:17:17.761Z
 generator: Upptime <https://github.com/upptime/upptime>
