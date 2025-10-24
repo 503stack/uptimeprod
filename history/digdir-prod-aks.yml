@@ -1,7 +1,7 @@
 url: https://digdir.apps.altinn.no/kuberneteswrapper/api/v1/deployments
 status: up
 code: 200
-responseTime: 562
-lastUpdated: 2025-10-23T23:13:27.070Z
+responseTime: 556
+lastUpdated: 2025-10-24T23:13:49.378Z
 startTime: 2025-06-03T18:16:30.517Z
 generator: Upptime <https://github.com/upptime/upptime>
