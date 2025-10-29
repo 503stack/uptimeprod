@@ -106,6 +106,10 @@ sites:
     url: https://nkom.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     ipv6: true
     icon: https://altinncdn.no/orgs/nkom/nkom.png
+  - name: nkr-prod-aks
+    url: https://nkr.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    ipv6: true
+    icon: https://altinncdn.no/orgs/nkr/kulturradet.png
   - name: oed-prod-aks
     url: https://oed.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     ipv6: true
@@ -122,6 +126,9 @@ sites:
     url: https://skd.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     ipv6: true
     icon: https://altinncdn.no/orgs/skd/skd.png
+  - name: slv-prod-aks
+    url: https://slv.apps.altinn.no/kuberneteswrapper/api/v1/deployments
+    ipv6: true
   - name: srf-prod-aks
     url: https://srf.apps.altinn.no/kuberneteswrapper/api/v1/deployments
     ipv6: true
